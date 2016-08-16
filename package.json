@@ -1,0 +1,35 @@
+{
+  "name": "web-world",
+  "version": "1.0.0",
+  "description": "Plus54+ Responsive template using bootstrap, sass and ajax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yanioconjota/web-world.git"
+  },
+  "keywords": [
+    "responsive",
+    "bootstrap",
+    "sass",
+    "ajax",
+    "template",
+    "layout"
+  ],
+  "author": "Janio Isacura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yanioconjota/web-world/issues"
+  },
+  "homepage": "https://github.com/Yanioconjota/web-world#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^1.12.4"
+  },
+  "devDependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0"
+  }
+}
