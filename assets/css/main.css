@@ -1,5 +1,17 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Open Sans.eot");
+  src: url("../fonts/Open Sans.eot?") format("eot"), url("../fonts/Open Sans.woff") format("woff"), url("../fonts/Open Sans.ttf") format("truetype"), url("../fonts/Open Sans.svg#Open Sans") format("svg"); }
+@font-face {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Pacifico.eot");
+  src: url("../fonts/Pacifico.eot?") format("eot"), url("../fonts/Pacifico.woff") format("woff"), url("../fonts/Pacifico.ttf") format("truetype"), url("../fonts/Pacifico.svg#Open Sans") format("svg"); }
 h1, h2, h3, h4, h5, h6 {
-  font-style: italic;
+  font-family: "Pacifico";
   font-weight: 800; }
 
 body {

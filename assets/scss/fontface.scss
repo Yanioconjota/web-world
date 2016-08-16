@@ -1,17 +1,18 @@
 $family:'Open Sans';
-$src:'../fonts/OpenSans';
-@mixin fontFace($family,$src) {
-@font-face {
-  font-family: $family;
-  src: url('#{$src}.eot'); // IE9 compat
-  src: url('#{$src}.eot?#iefix') format('embedded-opentype'), // IE8 and below
-  url('#{$src}.woff') format('woff'), // standards
-  url('#{$src}.ttf') format('truetype'), // Safari, Android, iOS
-  url('#{$src}.svg##{$family}') format('svg'); // legacy iOS
+$logo: 'Pacifico';
+@each $font-face in $family, $logo{
+    @font-face {
+         font-family: $font-face; font-style: normal; font-weight: normal;
+         src: url('../fonts/#{$font-face}.eot');
+         src: url('../fonts/#{$font-face}.eot?') format('eot'),
+              url('../fonts/#{$font-face}.woff') format('woff'),
+              url('../fonts/#{$font-face}.ttf')  format('truetype'),
+              url('../fonts/#{$font-face}.svg##{$family}') format('svg'); // legacy iOS
+   }
   }
-}
+
 
 h1,h2,h3,h4,h5,h6 {
-  font-style: italic;
+  font-family: $logo;
   font-weight: 800;
 }
