@@ -10,8 +10,5 @@
   font-weight: normal;
   src: url("../fonts/Pacifico.eot");
   src: url("../fonts/Pacifico.eot?") format("eot"), url("../fonts/Pacifico.woff") format("woff"), url("../fonts/Pacifico.ttf") format("truetype"), url("../fonts/Pacifico.svg#Open Sans") format("svg"); }
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Pacifico";
-  font-weight: 800; }
 
 /*# sourceMappingURL=fontface.css.map */
