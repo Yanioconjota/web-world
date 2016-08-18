@@ -83,7 +83,6 @@ $imagedir:'../img/'; // define the base path before the mixin
 }
 
 .carousel {
-  height: 65vh;
   @include background('main-pic.jpg');
   .caption {
     color: $white;
@@ -98,7 +97,7 @@ $imagedir:'../img/'; // define the base path before the mixin
 
 .carousel-indicators {
   .active {
-    background: #31708f;
+    background: $white;
   }
   li {
     border :1px solid #ccc;
@@ -112,18 +111,15 @@ $imagedir:'../img/'; // define the base path before the mixin
   width:100%;
   margin-bottom:0;
 }
-.adjust2 {
-  margin:0;
-}
 
 .carousel-control{
-  color:#31708f;
-  width:5%;
+  color:$white !important;
+  width:15%;
 }
 .carousel-control {
   &:hover,
   &:focus {
-    color:#31708f;
+    color:darken($white, 5%);
   }
 }
 .carousel-control.left,
